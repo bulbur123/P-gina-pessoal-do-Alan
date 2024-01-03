@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Botão de Contador</title>
+  <script>
+    var contador = 0;
+
+    function incrementarContador() {
+      contador++;
+      document.getElementById("contador").innerHTML = contador;
+    }
+  </script>
+</head>
+<body>
+  <h1>Botão de Contador</h1>
+  <p>Contador: <span id="contador">0</span></p>
+  <button onclick="incrementarContador()">Clique Aqui</button>
+</body>
+</html>
