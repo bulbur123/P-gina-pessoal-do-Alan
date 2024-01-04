@@ -57,12 +57,9 @@
         <a href="#">Contato</a>
     </nav>
 
-    <section id="markdownContent">
-        <!-- O conteúdo em Markdown vai aqui -->
-    </section>
+    <section id="markdownContent"> </section>
 
-    <script>
-        // Seu conteúdo Markdown
+    <script>        
         const markdownText = `
 ## Experiências Profissionais
 
@@ -103,8 +100,7 @@
 ### ccc
 
 `;
-
-        // Converte o Markdown para HTML usando a biblioteca Marked
+        
         document.getElementById('markdownContent').innerHTML = marked(markdownText);
     </script>
 </body>
